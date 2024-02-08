@@ -1,13 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* html{
-    
-    /* font-size: 62.5%;karne se 1rem 16px k bjai 10px ka ho jai ga */
-    /* font-size: 62.5%;  */
-/* } */ */
+/* html {
+  font-size: 62.5%;karne se 1rem 16px k bjai 10px ka ho jai ga
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+   
+/* body{
+    pehly media color phr by defult color pekry ga
+    background-color: black;
+    color: white;
+} */
 
 
+/* Media Query Started */
+/* jase hi 500px se uper size hoga to gray color ho jai ga */
+/* @media (min-width: 500px) {
+  body {
+    background-color: gray;
+  }
+  html{
+    font-size: 20%;
+  }
+} */
+/* jase hi 800px se uper size hoga to red color ho jai ga */
+
+/* @media (min-width: 800px) {
+  body {
+    background-color: red;
+    color: white;
+  }
+  html{
+    font-size: 50%;
+  }
+} */ 
+
+/* Media Query Ended */
+
+li{
+    font-size: 1.5rem;
+}
+
+/* Media Qurey Max-Width Started */
+
+/* jase hi 800px se chota size hoga to red color ho jai ga */
+@media(max-width:800px)
+{
+    body{
+        background-color: red;
+        color: white;
+    }
+}
+
+
+/* Media Qurey Max-Width Ended */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
