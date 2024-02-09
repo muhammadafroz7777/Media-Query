@@ -55,13 +55,6 @@ li{
 /* Media Qurey Max-Width Started */
 
 /* jase hi 800px se chota size hoga to red color ho jai ga */
-@media(max-width:800px)
-{
-    body{
-        background-color: red;
-        color: white;
-    }
-}
 
 
 /* Media Qurey Max-Width Ended */
@@ -79,4 +72,22 @@ ul{
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+
+#icon{
+  font-size: 40px;
+  color: red;
+  display: none;
+}
+
+
+@media(max-width:800px)
+{
+  ul{
+    display: none;
+  }
+  #icon{
+    display: block;
+  }
+    
 }
